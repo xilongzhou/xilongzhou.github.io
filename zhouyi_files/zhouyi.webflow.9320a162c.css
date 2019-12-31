@@ -188,8 +188,8 @@ pw {
 }
 
 .section {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   background-color: white;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
