@@ -1,7 +1,7 @@
 .bio_format{
   float:left;
   padding-top:7px;
-  font-size:100%;
+  font-size:150%;
   text-align: justify;
 
   margin-left:280px;
@@ -22,13 +22,13 @@ bio_format.name{
 }
 
 .paper_title{
-    font-size:150%;
+    font-size:200%;
     font-weight:bold;
     color: #527bbd;
 }
 
 .paper_author{
-    font-size:100%;
+    font-size:150%;
     font-weight:bold;
     color: #527bbd;
 }
@@ -36,17 +36,17 @@ bio_format.name{
 .paper_abstract{
     text-align: justify;
     color: rgb(80,80,80);
-    font-size:100%;
+    font-size:150%;
 }
 
 .paper_bibtex{
     color: rgb(80,80,80);
-    font-size:100%;
+    font-size:150%;
 }
 
 .paper_fund{
     color: rgb(80,80,80);
-    font-size:100%;
+    font-size:150%;
 }
 
 .bibtex_wrap{
@@ -60,7 +60,7 @@ bio_format.name{
 .contact_format{
   float:left;
   padding-top: 5px;
-  font-size:20px;
+  font-size:25px;
   margin-right: 100px;
   line-height:50px;
 }
@@ -112,7 +112,7 @@ hr.sep{
 
 .author_format{
     display: block;
-    font-size:85%;
+    font-size:100%;
     color:black;
     padding-top:7px;
 }
@@ -121,7 +121,7 @@ hr.sep{
     display: block;
     text-align: justify;
 
-    font-size:75%;
+    font-size:100%;
     color:black;
     padding-top:7px;
 }
@@ -135,7 +135,7 @@ hr.sep{
 
 .conference_format{
     display: block;
-    font-size:75%;
+    font-size:80%;
     color:black;
     padding-top:7px;
 }
@@ -150,14 +150,14 @@ hr.sep{
 
 .link_format{
     display: block;
-    font-size:70%;
+    font-size:80%;
     color: rgb(0,0,0);
     padding-top:5px;
 }
 
 .category{
 	display: block;
-    font-size: 1.0em;
+    font-size: 1.5em;
     margin-top: 0.83em;
     margin-bottom: 0.83em;
     margin-left: 0;
@@ -168,7 +168,7 @@ hr.sep{
 body{
 
   -webkit-text-size-adjust: 100% ;
-  font-size: 13px;
+  font-size: 15px;
   color: rgb(15,2,0);
   background: rgb(245,245,249); 
   /*background: -webkit-linear-gradient(45deg,  rgb(245,245,249) 0%,rgb(245,245,245) 100%); */
@@ -225,7 +225,7 @@ body{
     padding-right: 4%;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-size: 90%;
+    font-size: 100%;
     box-shadow: 3px 3px 5px 3px #ccc;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -233,7 +233,7 @@ body{
 
 .item_content{
     line-height:180%;
-    font-size:70%;
+    font-size:100%;
 }
 
 /*a{
