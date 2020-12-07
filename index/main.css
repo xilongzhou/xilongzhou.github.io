@@ -1,7 +1,7 @@
 .bio_format{
   float:left;
   padding-top:7px;
-  font-size:110%;
+  font-size:100%;
   text-align: justify;
 
   margin-left:280px;
@@ -22,13 +22,13 @@ bio_format.name{
 }
 
 .paper_title{
-    font-size:200%;
+    font-size:150%;
     font-weight:bold;
     color: #527bbd;
 }
 
 .paper_author{
-    font-size:150%;
+    font-size:100%;
     font-weight:bold;
     color: #527bbd;
 }
@@ -36,17 +36,17 @@ bio_format.name{
 .paper_abstract{
     text-align: justify;
     color: rgb(80,80,80);
-    font-size:120%;
+    font-size:100%;
 }
 
 .paper_bibtex{
     color: rgb(80,80,80);
-    font-size:120%;
+    font-size:100%;
 }
 
 .paper_fund{
     color: rgb(80,80,80);
-    font-size:120%;
+    font-size:100%;
 }
 
 .bibtex_wrap{
@@ -99,7 +99,7 @@ hr.sep{
   float:left;
   width: 75%;
   margin-left:4%;
-  font-size:120%;
+  font-size:100%;
   padding-top:0%;
 }
 
@@ -121,21 +121,21 @@ hr.sep{
     display: block;
     text-align: justify;
 
-    font-size:85%;
+    font-size:75%;
     color:black;
     padding-top:7px;
 }
 
 .content2_format{
     text-align: justify;
-    font-size:110%;
+    font-size:100%;
     color:black;
     padding-top:7px;
 }
 
 .conference_format{
     display: block;
-    font-size:85%;
+    font-size:75%;
     color:black;
     padding-top:7px;
 }
@@ -143,21 +143,21 @@ hr.sep{
 
 .venue_format{
     display: block;
-    font-size:90%;
+    font-size:80%;
     color: rgb(0,0,0);
     padding-top:5px;
 }
 
 .link_format{
     display: block;
-    font-size:80%;
+    font-size:70%;
     color: rgb(0,0,0);
     padding-top:5px;
 }
 
 .category{
 	display: block;
-    font-size: 1.5em;
+    font-size: 1.0em;
     margin-top: 0.83em;
     margin-bottom: 0.83em;
     margin-left: 0;
@@ -168,7 +168,7 @@ hr.sep{
 body{
 
   -webkit-text-size-adjust: 100% ;
-  font-size: 16px;
+  font-size: 13px;
   color: rgb(15,2,0);
   background: rgb(245,245,249); 
   /*background: -webkit-linear-gradient(45deg,  rgb(245,245,249) 0%,rgb(245,245,245) 100%); */
@@ -225,7 +225,7 @@ body{
     padding-right: 4%;
     padding-top: 2%;
     padding-bottom: 2%;
-    font-size: 100%;
+    font-size: 90%;
     box-shadow: 3px 3px 5px 3px #ccc;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -233,7 +233,7 @@ body{
 
 .item_content{
     line-height:180%;
-    font-size:80%;
+    font-size:70%;
 }
 
 /*a{
