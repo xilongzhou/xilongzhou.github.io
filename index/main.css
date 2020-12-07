@@ -183,7 +183,8 @@ body{
 
 .img_format{
   width: 20%;
-  padding:0.5%;
+  height: 15%;
+  padding:0%;
   float:left;
 
   box-shadow: 2px 2px 2px 2px #ccc;
