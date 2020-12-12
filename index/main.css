@@ -117,6 +117,13 @@ hr.sep{
     padding-top:7px;
 }
 
+.abstract_format{
+    display: block;
+    font-size:80%;
+    color:black;
+    padding-top:7px;
+}
+
 .content_format{
     display: block;
     text-align: justify;
