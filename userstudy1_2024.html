@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Study</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .description {
+            margin-bottom: 20px;
+            font-size: 16px;
+            text-align: center;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="description" style="font-size: 20px;">
+	    We greatly appreciate your participation in this survey, which aims to evaluate the realism of material pairs. <br>
+	    Each survey contains around 20 examples and should take less than 3 minutes to complete. <br>
+	    You are welcome to take multiple surveys. After completing one, you may reopen this link to start a new randomized survey. <br><br>
+	    Thank you very much for your time and valuable input!
+    </div>
+
+    <button class="button" onclick="randomizeLink()">Take the Survey</button>
+
+    <script>
+        function randomizeLink() {
+            // Array of Google Form URLs
+            const formLinks = [
+                'https://forms.gle/PCgKoqs2XzRW6Fif7', //1
+                'https://forms.gle/7qA6wfCeZr8wF9h38', //2
+                'https://forms.gle/UnhHYAfdaUePHMSr7', //3
+                'https://forms.gle/oKcasmL1rm54hGR4A', //4
+                'https://forms.gle/VrSnAChEWaYMxuiV8', //5
+                'https://forms.gle/ZxifaxCqofCeUnUw6', //6
+                'https://forms.gle/3UXoB6YG3izWDat17', //7
+                'https://forms.gle/pXJb1Sj3pb2mvnx57', //8
+                'https://forms.gle/p7yo4sKmosJ4FPXw6', //9
+                'https://forms.gle/NnqnMzQ9Nk47a3ED9', //10
+                'https://forms.gle/e9QtVbCovvbNzRNU9', //11
+                'https://forms.gle/8KiJpRp8JUbSba8R9', //12
+                'https://forms.gle/xCCjdTHrkQG3m3fn7', //13
+                'https://forms.gle/Kp6fTA15EP51Z9pT6', //14
+                'https://forms.gle/WJxoCYZFxX9XhcxG6', //15
+                'https://forms.gle/5jKrYEqmiVnQS14U9', //16
+                'https://forms.gle/cnTJ31aRmxnbv1SM7', //17
+                'https://forms.gle/HxpmYghL1MXJzrUS7', //18
+                'https://forms.gle/N4TFHLuPPpo4mZVv5', //19
+                'https://forms.gle/LnoiGyPoyJSnLVdx5', //20
+                'https://forms.gle/Focsws5RaguFm8ne8', //21
+                'https://forms.gle/fh8iK6D1GiGGwJr79', //22
+                'https://forms.gle/gXFHwMhtqTFxmua18', //23
+                'https://forms.gle/8VE6x4WywVjEiLz49', //24
+                // Add more form URLs as needed
+            ];
+
+            // Randomly select one of the form links
+            const randomIndex = Math.floor(Math.random() * formLinks.length);
+            const selectedLink = formLinks[randomIndex];
+
+            // Redirect the user to the selected form
+            window.location.href = selectedLink;
+        }
+    </script>
+
+</body>
+</html>
