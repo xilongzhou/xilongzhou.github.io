@@ -296,10 +296,34 @@ a.paper{
   border-radius: 10px;
 }
 
+.collab_highlight{
+    color: #e60000;
+}
 
+/* ========================= */
+/* News Section (Refined) */
+/* ========================= */
 
+.news_block{
+    background: #eef3ff;   /* slightly darker soft blue */
+    border-left: 4px solid #527bbd;
+    border-right: 4px solid #527bbd;
+    border-radius: 6px;
+    padding: 12px 18px;
+    margin-top: 8px;
+    margin-bottom: 22px;
+}
 
+.news_block ul{
+    margin: 0;
+    padding-left: 18px;
+}
 
+.news_block li{
+    margin-bottom: 6px;     /* tiny increase for breathing room */
+    line-height: 1.4;
+    font-size: 110%;        /* slightly larger */
+}
 
 
 
